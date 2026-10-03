@@ -42,7 +42,8 @@
         },
         {
           "name": "xDist",
-          "ioValue": 65
+          "ioValue": 65,
+          "currentEquation": "65"
         },
         {
           "name": "yDist",
@@ -78,7 +79,8 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": -65,
+          "currentEquation": "-65"
         },
         {
           "name": "yDist",
@@ -114,12 +116,12 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 200,
-          "currentEquation": "200"
+          "ioValue": 240
         },
         {
           "name": "y length",
-          "ioValue": 130
+          "ioValue": 130,
+          "currentEquation": "130"
         }
       ]
     },
