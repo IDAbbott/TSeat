@@ -389,7 +389,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 80
+          "ioValue": 85
         },
         {
           "name": "yDist",
@@ -425,11 +425,12 @@
         },
         {
           "name": "xDist",
-          "ioValue": -60
+          "ioValue": -85
         },
         {
           "name": "yDist",
-          "ioValue": -10
+          "ioValue": -10,
+          "currentEquation": "-10"
         },
         {
           "name": "zDist",
@@ -465,7 +466,8 @@
         },
         {
           "name": "height",
-          "ioValue": 1
+          "ioValue": 6,
+          "currentEquation": "6"
         }
       ]
     },
@@ -759,7 +761,8 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 45
+          "ioValue": 45.4,
+          "currentEquation": "45.4"
         }
       ]
     },
@@ -884,11 +887,6 @@
       "ap2ID": "id-127"
     },
     {
-      "ap2Name": "remove",
-      "ap1ID": "id-127",
-      "ap2ID": "id-29"
-    },
-    {
       "ap2Name": "Shape4",
       "ap1ID": "id-134",
       "ap2ID": "id-127"
@@ -897,6 +895,11 @@
       "ap2Name": "Shape",
       "ap1ID": "id-134",
       "ap2ID": "id-151"
+    },
+    {
+      "ap2Name": "remove",
+      "ap1ID": "id-134",
+      "ap2ID": "id-29"
     }
   ],
   "unitsKey": "MM",
