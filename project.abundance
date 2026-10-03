@@ -109,6 +109,22 @@
       ]
     },
     {
+      "atomType": "Extrude",
+      "x": 0.6,
+      "y": 0.3,
+      "uniqueID": "id-33",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 1
+        }
+      ]
+    },
+    {
       "atomType": "Rectangle",
       "x": 0.1,
       "y": 0.4,
@@ -170,8 +186,13 @@
       "ap2ID": "id-11"
     },
     {
-      "ap2Name": "number or geometry",
+      "ap2Name": "geometry",
       "ap1ID": "id-29",
+      "ap2ID": "id-33"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-33",
       "ap2ID": "id-2"
     }
   ],
