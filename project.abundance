@@ -48,42 +48,6 @@
       ]
     },
     {
-      "atomType": "Assembly",
-      "x": 0.4,
-      "y": 0.5,
-      "uniqueID": "id-134",
-      "ioValues": [
-        {
-          "name": "makeDisjoint",
-          "ioValue": true
-        },
-        {
-          "name": "Shape 1",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Shape2",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Shape3",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Shape4",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Shape5",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Shape6",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ]
-    },
-    {
       "atomType": "GitHubMolecule",
       "x": 0.5,
       "y": 0.4,
@@ -316,7 +280,7 @@
     },
     {
       "atomType": "Move",
-      "x": 0.2,
+      "x": 0.3,
       "y": 0.3,
       "uniqueID": "id-16",
       "ioValues": [
@@ -352,7 +316,7 @@
     },
     {
       "atomType": "Move",
-      "x": 0.2,
+      "x": 0.3,
       "y": 0.4,
       "uniqueID": "id-22",
       "ioValues": [
@@ -400,31 +364,6 @@
       ]
     },
     {
-      "atomType": "Move",
-      "x": 0.2,
-      "y": 0.5,
-      "uniqueID": "id-288",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": 0
-        },
-        {
-          "name": "yDist",
-          "ioValue": 0
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0,
-          "currentEquation": "0"
-        }
-      ]
-    },
-    {
       "atomType": "Difference",
       "x": 0.5,
       "y": 0.2,
@@ -441,26 +380,42 @@
       ]
     },
     {
-      "atomType": "Move",
-      "x": 0.2,
-      "y": 0.6,
-      "uniqueID": "id-294",
+      "atomType": "Assembly",
+      "x": 0.4,
+      "y": 0.4,
+      "uniqueID": "id-315",
       "ioValues": [
         {
-          "name": "geometry",
+          "name": "makeDisjoint",
+          "ioValue": true
+        },
+        {
+          "name": "Shape 1",
           "ioValue": "__GEOMETRY_INPUT__"
         },
         {
-          "name": "xDist",
-          "ioValue": 0
+          "name": "Shape2",
+          "ioValue": "__GEOMETRY_INPUT__"
         },
         {
-          "name": "yDist",
-          "ioValue": 0
+          "name": "Shape3",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.1,
+      "y": 0.5,
+      "uniqueID": "id-321",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 46
         },
         {
-          "name": "zDist",
-          "ioValue": 0
+          "name": "y length",
+          "ioValue": 10
         }
       ]
     },
@@ -781,29 +736,14 @@
       "ap2ID": "id-101"
     },
     {
-      "ap2Name": "Shape3",
-      "ap1ID": "id-101",
-      "ap2ID": "id-134"
-    },
-    {
-      "ap2Name": "Shape",
-      "ap1ID": "id-134",
-      "ap2ID": "id-151"
-    },
-    {
-      "ap2Name": "remove",
-      "ap1ID": "id-134",
-      "ap2ID": "id-29"
-    },
-    {
       "ap2Name": "Shape 1",
       "ap1ID": "id-16",
-      "ap2ID": "id-134"
+      "ap2ID": "id-315"
     },
     {
       "ap2Name": "Shape2",
       "ap1ID": "id-22",
-      "ap2ID": "id-134"
+      "ap2ID": "id-315"
     },
     {
       "ap2Name": "geometry",
@@ -841,29 +781,14 @@
       "ap2ID": "id-22"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-8",
-      "ap2ID": "id-288"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-8",
-      "ap2ID": "id-294"
-    },
-    {
       "ap2Name": "retain",
       "ap1ID": "id-281",
       "ap2ID": "id-29"
     },
     {
-      "ap2Name": "Shape4",
-      "ap1ID": "id-288",
-      "ap2ID": "id-134"
-    },
-    {
-      "ap2Name": "Shape5",
-      "ap1ID": "id-294",
-      "ap2ID": "id-134"
+      "ap2Name": "remove",
+      "ap1ID": "id-315",
+      "ap2ID": "id-29"
     }
   ],
   "unitsKey": "MM",
