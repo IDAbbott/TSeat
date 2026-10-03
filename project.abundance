@@ -7,50 +7,8 @@
   "topLevel": true,
   "allAtoms": [
     {
-      "atomType": "Rectangle",
-      "x": 0.1,
-      "y": 0.8,
-      "uniqueID": "id-100",
-      "ioValues": [
-        {
-          "name": "x length",
-          "ioValue": 26,
-          "currentEquation": "26"
-        },
-        {
-          "name": "y length",
-          "ioValue": 240
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "x": 0.3,
-      "y": 0.8,
-      "uniqueID": "id-101",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": 0,
-          "currentEquation": "0"
-        },
-        {
-          "name": "yDist",
-          "ioValue": -54
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
       "atomType": "GitHubMolecule",
-      "x": 0.5,
+      "x": 0.4,
       "y": 0.4,
       "uniqueID": "id-151",
       "name": "Label_Bounding_Box",
@@ -356,7 +314,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 6
+          "ioValue": 13
         },
         {
           "name": "zDist",
@@ -366,8 +324,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.6,
-      "y": 0.3,
+      "x": 0.5,
+      "y": 0.2,
       "uniqueID": "id-33",
       "ioValues": [
         {
@@ -476,47 +434,6 @@
       ]
     },
     {
-      "atomType": "Difference",
-      "x": 0.5,
-      "y": 0.3,
-      "uniqueID": "id-355",
-      "ioValues": [
-        {
-          "name": "retain",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "remove",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ]
-    },
-    {
-      "atomType": "Rotate",
-      "x": 0.1,
-      "y": 0.8,
-      "uniqueID": "id-359",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "x-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "y-axis degrees",
-          "ioValue": 0,
-          "currentEquation": "0"
-        },
-        {
-          "name": "z-axis degrees",
-          "ioValue": 90
-        }
-      ]
-    },
-    {
       "atomType": "Rectangle",
       "x": 0.1,
       "y": 0.2,
@@ -529,14 +446,14 @@
         },
         {
           "name": "y length",
-          "ioValue": 104
+          "ioValue": 117
         }
       ]
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.5,
-      "y": 0.6,
+      "x": 0.6,
+      "y": 0.1,
       "uniqueID": "id-47",
       "name": "Label_Bounding_Box",
       "ioValues": [
@@ -813,16 +730,6 @@
   ],
   "allConnectors": [
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-100",
-      "ap2ID": "id-359"
-    },
-    {
-      "ap2Name": "remove",
-      "ap1ID": "id-101",
-      "ap2ID": "id-355"
-    },
-    {
       "ap2Name": "Shape 1",
       "ap1ID": "id-16",
       "ap2ID": "id-345"
@@ -873,14 +780,14 @@
       "ap2ID": "id-350"
     },
     {
-      "ap2Name": "retain",
-      "ap1ID": "id-350",
-      "ap2ID": "id-355"
+      "ap2Name": "Shape",
+      "ap1ID": "id-345",
+      "ap2ID": "id-151"
     },
     {
       "ap2Name": "geometry",
-      "ap1ID": "id-359",
-      "ap2ID": "id-101"
+      "ap1ID": "id-350",
+      "ap2ID": "id-33"
     }
   ],
   "unitsKey": "MM",
