@@ -8,8 +8,8 @@
   "allAtoms": [
     {
       "atomType": "GitHubMolecule",
-      "x": 0.5,
-      "y": 0.1,
+      "x": 0.9,
+      "y": 0.3,
       "uniqueID": "id-151",
       "name": "Label_Bounding_Box",
       "ioValues": [
@@ -702,12 +702,12 @@
         },
         {
           "name": "xDist",
-          "ioValue": 50,
-          "currentEquation": "50"
+          "ioValue": 48
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "zDist",
@@ -805,7 +805,7 @@
         {
           "name": "Shape4",
           "ioValue": {
-            "geometry": "move-rotate-cut-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0-0-0-move-extrude-circle-42.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-3-0-0-0-0-90-0-50-0-50",
+            "geometry": "move-rotate-cut-move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0-0-0-move-extrude-circle-42.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-3-0-0-0-0-90-0-48-0-50",
             "dimension": "3D",
             "plane": {
               "origin": [
@@ -896,11 +896,6 @@
       "ap2ID": "id-350"
     },
     {
-      "ap2Name": "Shape",
-      "ap1ID": "id-350",
-      "ap2ID": "id-151"
-    },
-    {
       "ap2Name": "geometry",
       "ap1ID": "id-350",
       "ap2ID": "id-510"
@@ -924,6 +919,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-8",
       "ap2ID": "id-506"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-151",
+      "ap2ID": "id-2"
     },
     {
       "ap2Name": "geometry",
@@ -966,14 +966,14 @@
       "ap2ID": "id-552"
     },
     {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-552",
-      "ap2ID": "id-2"
-    },
-    {
       "ap2Name": "geometry",
       "ap1ID": "id-552",
       "ap2ID": "id-78"
+    },
+    {
+      "ap2Name": "Shape",
+      "ap1ID": "id-552",
+      "ap2ID": "id-151"
     }
   ],
   "unitsKey": "MM",
