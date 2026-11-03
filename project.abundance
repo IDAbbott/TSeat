@@ -988,11 +988,6 @@
       "ap2ID": "id-552"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-552",
-      "ap2ID": "id-78"
-    },
-    {
       "ap2Name": "retain",
       "ap1ID": "id-552",
       "ap2ID": "id-851"
@@ -1036,6 +1031,11 @@
       "ap2Name": "Shape",
       "ap1ID": "id-851",
       "ap2ID": "id-151"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-851",
+      "ap2ID": "id-78"
     }
   ],
   "unitsKey": "MM",
