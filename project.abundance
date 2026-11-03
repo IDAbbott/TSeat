@@ -706,7 +706,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 68
+          "ioValue": 67
         },
         {
           "name": "yDist",
@@ -780,7 +780,8 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "zDist",
@@ -869,14 +870,14 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "Lamp",
-          "currentEquation": "Lamp"
+          "ioValue": "LampHolder",
+          "currentEquation": "LampHolder"
         }
       ],
       "type": null,
       "resolution": 96,
       "importIndex": 0,
-      "partName": "Lamp"
+      "partName": "LampHolder"
     },
     {
       "atomType": "Circle",
